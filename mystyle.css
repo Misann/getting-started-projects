@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background: #C99D55;
+}
+
+#wrapper {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #9F4FD3;
+  border-radius: 25px;
+  margin: 0 auto;
+  box-shadow: 10px 5px 5px;
+}
+
+button {
+  margin: 10px auto;
+  height: 50px;
+  width: 200px;
+  box-shadow: 5px 5px 5px;
+  background: #BC507E;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border: inherit;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 1.25em;
+  transition: all .1s;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+
+
+
+.dot {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #22285C;
+}
+
+.one {
+  position: absolute;
+  top: 175px;
+  left: 180px;
+}
+
+.two_one {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.two_two {
+  position: absolute;
+  top: 320px;
+  left: 320px;
+}
+
+.four_one {
+  position: absolute;
+  top: 40px;
+  left: 320px;
+}
+
+.four_two {
+  position: absolute;
+  top: 320px;
+  left: 40px;
+}
+
+.six_one {
+  position: absolute;
+  top: 175px;
+  left: 40px;
+}
+
+.six_two {
+  position: absolute;
+  top: 175px;
+  left: 320px;
+}
+
+.inactive {
+  display: none;
+}
